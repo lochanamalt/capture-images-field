@@ -1,9 +1,14 @@
+"""
+@author: Lochana Marasinghe
+@date: 03/03/2025
+@description: More info: https://github.com/lochanamalt/flir-lepton-thermal-camera
+"""
 import time
 from datetime import datetime
 from pathlib import Path
-import platform
 
 import cv2
+
 
 class LeptonThermalCamera:
     def __init__(
