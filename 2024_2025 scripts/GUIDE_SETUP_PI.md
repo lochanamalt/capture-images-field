@@ -180,7 +180,7 @@ def save_image(self):
 ```
 
 ---
-## ⏱️ Scheduling Capture Times (Witty Pi 3)
+## ⏱️ Scheduling Capture Times
 
 
 First permit all privileges the data and script folder:
