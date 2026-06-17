@@ -1,0 +1,159 @@
+pi2
+_____
+
+BEGIN   2023-04-22 09:30:00     # starts at 9:30
+END     2035-07-31 23:59:59
+ON      M5              # keep ON state for 5  minutes for warm up (until 09:35)
+OFF     M15             # keep OFF state for 15 minutes (until 09:50)
+ON      M20             # keep ON state for 20 minutes (until 10:10)
+OFF     H2 M40          # keep OFF state for 2 hours 40 minutes (until 12:50)
+ON      M20             # keep ON state for 20 minutes (until 13:10)
+OFF     H1 M40          # keep OFF state for 1 hours 40 minutes (until 14:50)
+ON      M20             # keep ON state for 20 minutes (until 15:10)
+OFF     H15 M40          # keep OFF state for 15 hours 10 minutes (until 06:50 next day)
+ON      M20             # keep ON state for 20 minutes (until 07:10)
+OFF     H2 M20         # keep OFF state for 02 hours 20 minutes (until 09:30)
+
+sudo crontab -e
+Add this to the crontab
+00 07 * * * python3 /home/pi/Documents/cloud_upload.py
+
+
+pi3
+_____
+BEGIN   2023-04-22 09:30:00     # starts at 9:30
+END     2035-07-31 23:59:59
+ON      M5              # keep ON state for 5  minutes for warm up (until 09:35)
+OFF     M15             # keep OFF state for 15 minutes (until 09:50)
+ON      M20             # keep ON state for 20 minutes (until 10:10)
+OFF     H2 M40          # keep OFF state for 2 hours 40 minutes (until 12:50)
+ON      M20             # keep ON state for 20 minutes (until 13:10)
+OFF     H1 M40          # keep OFF state for 1 hours 40 minutes (until 14:50)
+ON      M20             # keep ON state for 20 minutes (until 15:10)
+OFF     H16 M40          # keep OFF state for 16 hours 10 minutes (until 07:50 next day)
+ON      M20             # keep ON state for 20 minutes (until 08:10)
+OFF     H1 M20         # keep OFF state for 01 hours 20 minutes (until 09:30)
+
+sudo crontab -e
+Add this to the crontab
+0 08 * * * python3 /home/pi/Documents/cloud_upload.py
+
+
+
+pi4
+_____
+BEGIN   2023-04-22 09:30:00     # starts at 9:30
+END     2035-07-31 23:59:59
+ON      M5              # keep ON state for 5  minutes for warm up (until 09:35)
+OFF     M15             # keep OFF state for 15 minutes (until 09:50)
+ON      M20             # keep ON state for 20 minutes (until 10:10)
+OFF     H2 M40          # keep OFF state for 2 hours 40 minutes (until 12:50)
+ON      M20             # keep ON state for 20 minutes (until 13:10)
+OFF     H1 M40          # keep OFF state for 1 hours 40 minutes (until 14:50)
+ON      M20             # keep ON state for 20 minutes (until 15:10)
+OFF     H17 M40          # keep OFF state for 17 hours 10 minutes (until 08:50 next day)
+ON      M20             # keep ON state for 20 minutes (until 09:10)
+OFF     M20         # keep OFF state for 20 minutes (until 09:30)
+
+sudo crontab -e
+Add this to the crontab
+0 09 * * * python3 /home/pi/Documents/cloud_upload.py
+
+pi5
+_____
+BEGIN   2023-04-22 09:30:00     # starts at 9:30
+END     2035-07-31 23:59:59
+ON      M5              # keep ON state for 5  minutes for warm up (until 09:35)
+OFF     M15             # keep OFF state for 15 minutes (until 09:50)
+ON      M20             # keep ON state for 20 minutes (until 10:10)
+OFF     M40		# keep OFF state for 40 minutes (until 10:50)
+ON      M20             # keep ON state for 20 minutes (until 11:10)
+OFF     H1 M40          # keep OFF state for 2 hours 40 minutes (until 12:50)
+ON      M20             # keep ON state for 20 minutes (until 13:10)
+OFF     H1 M40          # keep OFF state for 1 hours 40 minutes (until 14:50)
+ON      M20             # keep ON state for 20 minutes (until 15:10)
+OFF     H18 M20         # keep OFF state for 18 hours 20 minutes (until 09:30 next day)
+
+sudo crontab -e
+Add this to the crontab
+0 11 * * * python3 /home/pi/Documents/cloud_upload.py
+
+
+pi6
+_____
+BEGIN   2023-04-22 09:30:00     # starts at 9:30
+END     2035-07-31 23:59:59
+ON      M5              # keep ON state for 5  minutes for warm up (until 09:35)
+OFF     M15             # keep OFF state for 15 minutes (until 09:50)
+ON      M20             # keep ON state for 20 minutes (until 10:10)
+OFF     H1 M40		# keep OFF state for 1 hour 40 minutes (until 11:50)
+ON      M20          	# keep ON state for 20 minutes (until 12:10)
+OFF     M40          	# keep OFF state for 40 minutes (until 12:50)
+ON      M20             # keep ON state for 20 minutes (until 13:10)
+OFF     H1 M40          # keep OFF state for 1 hours 40 minutes (until 14:50)
+ON      M20             # keep ON state for 20 minutes (until 15:10)
+OFF     H18 M20         # keep OFF state for 18 hours 20 minutes (until 09:30 next day)
+
+sudo crontab -e
+Add this to the crontab
+0 12 * * * python3 /home/pi/Documents/cloud_upload.py
+
+pi7
+_____
+BEGIN   2023-04-22 09:30:00     # starts at 9:30
+END     2035-07-31 23:59:59
+ON      M5              # keep ON state for 5  minutes for warm up (until 09:35)
+OFF     M15             # keep OFF state for 15 minutes (until 09:50)
+ON      M20             # keep ON state for 20 minutes (until 10:10)
+OFF     H2 M40          # keep OFF state for 2 hours 40 minutes (until 12:50)
+ON      M20             # keep ON state for 20 minutes (until 13:10)
+OFF     M40          	# keep OFF state for 40 minutes (until 13:50)
+ON      M20             # keep ON state for 20 minutes (until 14:10)
+OFF     M40          	# keep OFF state for  40 minutes (until 14:50)
+ON      M20             # keep ON state for 20 minutes (until 15:10)
+OFF     H18 M20         # keep OFF state for 18 hours 20 minutes (until 09:30 next day)
+
+sudo crontab -e
+Add this to the crontab
+0 14 * * * python3 /home/pi/Documents/cloud_upload.py
+
+
+pi8
+_____
+BEGIN   2023-04-22 09:30:00     # starts at 9:30
+END     2035-07-31 23:59:59
+ON      M5              # keep ON state for 5  minutes for warm up (until 09:35)
+OFF     M15             # keep OFF state for 15 minutes (until 09:50)
+ON      M20             # keep ON state for 20 minutes (until 10:10)
+OFF     H2 M40          # keep OFF state for 2 hours 40 minutes (until 12:50)
+ON      M20             # keep ON state for 20 minutes (until 13:10)
+OFF     H1 M40          # keep OFF state for 1 hours 40 minutes (until 14:50)
+ON      M20             # keep ON state for 20 minutes (until 15:10)
+OFF     M40          	# keep OFF state for 40 minutes (until 15:50)
+ON      M20             # keep ON state for 20 minutes (until 16:10)
+OFF     H17 M20         # keep OFF state for 18 hours 20 minutes (until 09:30 next day)
+
+sudo crontab -e
+Add this to the crontab
+0 16 * * * python3 /home/pi/Documents/cloud_upload.py
+
+
+
+pi1
+_____
+BEGIN   2023-04-22 09:30:00     # starts at 9:30
+END     2035-07-31 23:59:59
+ON      M5              # keep ON state for 5  minutes for warm up (until 09:35)
+OFF     M15             # keep OFF state for 15 minutes (until 09:50)
+ON      M20             # keep ON state for 20 minutes (until 10:10)
+OFF     H2 M40          # keep OFF state for 2 hours 40 minutes (until 12:50)
+ON      M20             # keep ON state for 20 minutes (until 13:10)
+OFF     H1 M40          # keep OFF state for 1 hours 40 minutes (until 14:50)
+ON      M20             # keep ON state for 20 minutes (until 15:10)
+OFF     H1 M40          # keep OFF state for 40 minutes (until 16:50)
+ON      M20             # keep ON state for 20 minutes (until 17:10)
+OFF     H16 M20         # keep OFF state for 18 hours 20 minutes (until 09:30 next day)
+
+sudo crontab -e
+Add this to the crontab
+0 17 * * * python3 /home/pi/Documents/cloud_upload.py
