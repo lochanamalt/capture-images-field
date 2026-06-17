@@ -1,9 +1,3 @@
-sample data folder structuire
-
-cloud sync instructions in here
-
-
-
 # Automated Field Camera Capture & Cloud Sync
 
 This repository contains the configurations, image capturing scripts, automation scripts
