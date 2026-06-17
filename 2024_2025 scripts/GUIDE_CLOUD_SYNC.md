@@ -78,7 +78,7 @@ rclone sync /home/pi/Documents/data/ othello_data:upload/pi1
 
 ## Scheduling Cloud Upload
 
-To ensure all captured field imagery is synced to the cloud a cronjob si created.
+To ensure all captured field imagery is synced to the cloud a cronjob is created.
 
 Open the crontab:
 ```bash
