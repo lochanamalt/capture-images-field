@@ -34,8 +34,9 @@ SMB/REST access keys.
 
 ### 📊 [Sample Data Structure](2024_2025%20scripts/data%20sample/)
 
-Review the [Sample Data Folder](2024_2025%20scripts/data%20sample/) to see 
-how the daily field images are saved and formatted.
+
+Review the [Sample Data Folder](2024_2025%20scripts/data%20sample/) to see how the daily field images are saved and formatted.
+
 ---
 
 
