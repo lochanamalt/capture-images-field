@@ -1,6 +1,6 @@
 # Automated Field Camera Capture & Cloud Sync
 
-![License](https://img.shields.io/badge/License-CC_BY--NC_4.0-blue.svg)
+[![License](https://img.shields.io/badge/License-CC_BY--NC_4.0-blue.svg)](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
 ![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen.svg)
 [![Python](https://img.shields.io/badge/Python-3.9+-navy.svg)](https://python.org)
 [![Platform](https://img.shields.io/badge/Platform-Raspberry%20Pi-red.svg)](https://raspberrypi.org)
