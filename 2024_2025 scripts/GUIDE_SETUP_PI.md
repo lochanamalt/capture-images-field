@@ -58,7 +58,7 @@ vncserver-virtual
 
 ---
 
-## 📷 Pi Cameras & Thermal Sensor Configurations
+## Pi Cameras & Thermal Sensor Configurations
 
 ### 1. Dual Camera Array dt-blob Injection
 
