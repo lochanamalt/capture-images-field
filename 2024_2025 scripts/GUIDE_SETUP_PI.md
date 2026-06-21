@@ -1,4 +1,4 @@
-# 🛠️ Raspberry Pi Camera Node Setup Guide
+# Raspberry Pi Camera Node Setup Guide
 
 This guide details the step-by-step OS installation, hardware interface activation 
 and automated scheduling for capturing images, syncing data with Azure FileShare and power scheduling 
@@ -7,7 +7,7 @@ required to prepare field imaging nodes running on **Raspberry Pi**.
 Imaging sensors: Raspberry Pi V2 RGB and NoIR, Flir Lepton thermal camera,  Melexis MLX90640 thermal camera
 
 Note: Stereo pi pinout: https://stereopi.com/blog/synchronizing-photos-two-stereopi-boards
-## 📋 Initial OS Flash
+## Initial OS Flash
 
 1. **OS Target:** Download and use the Raspberry Pi Imager to flash an SD card with **Raspberry Pi Bullseye** (`Raspbian GNU/Linux 11 (bullseye)`) with an **armv7l** architecture.
 2. **First-Boot Customization:** Using the Raspberry Pi Imager OS Customization panel, configure the following properties:
@@ -22,7 +22,7 @@ Note: Stereo pi pinout: https://stereopi.com/blog/synchronizing-photos-two-stere
 3. Insert this SD card to the Raspberry Pi
 
 
-## 🌐 Local Networking & Initial SSH Connection
+## Local Networking & Initial SSH Connection
 
 To configure headless units without a standard router setup, share your development computer's active Wi-Fi connection over an Ethernet cable:
 
@@ -36,7 +36,7 @@ To configure headless units without a standard router setup, share your developm
 
 ---
 
-## ⚙️ Peripheral Configuration
+## Peripheral Configuration
 
 Execute the native configuration tool:
 ```bash
@@ -180,7 +180,7 @@ def save_image(self):
 ```
 
 ---
-## ⏱️ Scheduling Capture Times
+## Scheduling Capture Times
 
 
 First permit all privileges the data and script folder:
@@ -212,7 +212,7 @@ Then, restart the rsyslog service:
 sudo /etc/init.d/rsyslog restart
 ```
 
-## ⏱️ Scheduling Power (Witty Pi 3)
+## Scheduling Power (Witty Pi 3)
 
 ### 1. Install WittyPi and WiringPi
 
@@ -266,7 +266,7 @@ sudo ./runScript.sh
 ```
 Make sure to check if it’s the correct date and time for the next shutdown and startup.
 
-## 📶 Configure Network Auto-Connect Profiles
+## Configure Network Auto-Connect Profiles
 
 ```bash
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
