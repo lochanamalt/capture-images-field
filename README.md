@@ -1,5 +1,11 @@
 # Automated Field Camera Capture & Cloud Sync
 
+![License](https://img.shields.io/badge/License-CC_BY--NC_4.0-blue.svg)
+![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen.svg)
+[![Python](https://img.shields.io/badge/Python-3.9+-navy.svg)](https://python.org)
+[![Platform](https://img.shields.io/badge/Platform-Raspberry%20Pi-red.svg)](https://raspberrypi.org)
+![Research](https://img.shields.io/badge/By-WSU--Phenomics-yellow.svg)
+
 This repository contains the configurations, image capturing scripts, automation scripts
 , and deployment documentation for field-deployed imaging nodes.
 The system captures daily, scheduled imagery collection
