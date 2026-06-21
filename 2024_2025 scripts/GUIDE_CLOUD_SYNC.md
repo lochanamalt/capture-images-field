@@ -1,5 +1,5 @@
 
-# ☁️ Azure Storage Integration & Client File Synchronization
+# Azure Storage Integration & Client File Synchronization
 
 This document outlines the configuration required
 to sync stored images directly to the **Azure Storage File Share**.
