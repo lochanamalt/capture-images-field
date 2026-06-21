@@ -11,7 +11,7 @@ remote cloud storage (Azure File Share).
 
 ## Repository Navigation Guide
 
-### 🛠️ [Raspberry Pi Setup, Sensor Integrations, Image Capture Scheduling & Power Management](2024_2025%20scripts/GUIDE_SETUP_PI.md)
+### [Raspberry Pi Setup, Sensor Integrations, Image Capture Scheduling & Power Management](2024_2025%20scripts/GUIDE_SETUP_PI.md)
 
 Navigate to the `GUIDE_SETUP_PI.md` inside the `2024_2025 scripts` folder for OS and sensor configurations, including:
 
@@ -24,7 +24,7 @@ Navigate to the `GUIDE_SETUP_PI.md` inside the `2024_2025 scripts` folder for OS
 
 The image capturing script can be found in **[camera_run.py](2024_2025%20scripts/camera_run.py)**
 
-### ☁️ [Azure Storage Sync](2024_2025%20scripts/GUIDE_CLOUD_SYNC.md)
+### [Azure Storage Sync](2024_2025%20scripts/GUIDE_CLOUD_SYNC.md)
 
 * Uses `rclone` to bridge local data folders to a **Azure Storage File Share** using 
 SMB/REST access keys.
@@ -32,7 +32,7 @@ SMB/REST access keys.
 
 
 
-### 📊 [Sample Data Structure](2024_2025%20scripts/data%20sample/)
+### [Sample Data Structure](2024_2025%20scripts/data%20sample/)
 
 
 Review the [Sample Data Folder](2024_2025%20scripts/data%20sample/) to see how the daily field images are saved and formatted.
@@ -40,7 +40,7 @@ Review the [Sample Data Folder](2024_2025%20scripts/data%20sample/) to see how t
 ---
 
 
-## 📄 License
+## License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0). 
 
